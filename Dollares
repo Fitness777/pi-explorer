@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63"
+    },
+    "transactions": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63/transactions{?cursor,limit,order}",
+      "templated": true
+    },
+    "operations": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63/operations{?cursor,limit,order}",
+      "templated": true
+    },
+    "payments": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63/payments{?cursor,limit,order}",
+      "templated": true
+    },
+    "effects": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63/effects{?cursor,limit,order}",
+      "templated": true
+    },
+    "offers": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63/offers{?cursor,limit,order}",
+      "templated": true
+    },
+    "trades": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63/trades{?cursor,limit,order}",
+      "templated": true
+    },
+    "data": {
+      "href": "https://api.testnet.minepi.com/accounts/GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63/data/{key}",
+      "templated": true
+    }
+  },
+  "id": "GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63",
+  "account_id": "GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63",
+  "sequence": "77306907362066432",
+  "subentry_count": 0,
+  "last_modified_ledger": 17999417,
+  "last_modified_time": "2025-01-07T21:20:05Z",
+  "thresholds": {
+    "low_threshold": 0,
+    "med_threshold": 0,
+    "high_threshold": 0
+  },
+  "flags": {
+    "auth_required": false,
+    "auth_revocable": false,
+    "auth_immutable": false,
+    "auth_clawback_enabled": false
+  },
+  "balances": [
+    {
+      "balance": "100.0000000",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "asset_type": "native"
+    }
+  ],
+  "signers": [
+    {
+      "weight": 1,
+      "key": "GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63",
+      "type": "ed25519_public_key"
+    }
+  ],
+  "data": {},
+  "num_sponsoring": 0,
+  "num_sponsored": 0,
+  "paging_token": "GCEW747HGTEQTHNR5WHLCSHW5F25Q2F5HAGKLTQ7ZZHDIV5XCPQ4YV63"
+}
